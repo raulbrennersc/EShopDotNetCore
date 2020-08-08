@@ -13,6 +13,6 @@ namespace Domain.Entities
         public virtual string ZipCode { get; set; }
         public virtual string State { get; set; }
         public virtual string Country { get; set; }
-        public virtual User User { get; set; }
+        public virtual Customer User { get; set; }
     }
 }
