@@ -18,7 +18,7 @@ namespace Infra.Data.Repository
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Remove(Get(id));
         }
 
         public T Get(int id)
@@ -33,17 +33,12 @@ namespace Infra.Data.Repository
 
         public void Save(T obj)
         {
-            throw new NotImplementedException();
-        }
-
-        public void Save(IEnumerable<T> objs)
-        {
-            throw new NotImplementedException();
+            _context.Set<T>().Add(obj);
         }
 
         public void Update(T obj)
         {
-            throw new NotImplementedException();
+            _context.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
     }
 }

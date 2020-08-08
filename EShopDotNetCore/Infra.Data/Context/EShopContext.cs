@@ -21,7 +21,7 @@ namespace Infra.Data.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductDetail> ProductDetails { get; set; }
         public DbSet<Review> Reviews { get; set; }
-        public DbSet<Customer> Users { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         public EShopContext(DbContextOptions<EShopContext> options) : base(options) {}
 
