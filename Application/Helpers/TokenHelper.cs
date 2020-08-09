@@ -16,7 +16,7 @@ namespace Application.Helpers
         {
             var claims = new[]
             {
-                new Claim("CostumerID", costumer.Id.ToString()),
+                new Claim("CustomerCpf", costumer.Cpf),
                 new Claim("CostumerFirstName", costumer.FirstName),
                 new Claim("CostumerLastName", costumer.LastName),
             };

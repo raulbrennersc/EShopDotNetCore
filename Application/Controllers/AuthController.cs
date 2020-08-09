@@ -23,7 +23,8 @@ namespace Application.Controllers
             _uow = unitOfWork;
             _customerService = customerService;
         }
-        [HttpPost("Register")]
+
+        [HttpPost("register")]
         public ActionResult Register(CustomerRegisterDto newCustomerDto)
         {
             if (_customerService.GetCustomerByCpf(newCustomerDto.Cpf) != null)
@@ -44,7 +45,7 @@ namespace Application.Controllers
             }
         }
 
-        [HttpPost("Login")]
+        [HttpPost("login")]
         public ActionResult Login(CustomerLoginDto customerLoginDto, [FromServices] IConfiguration config)
         {
             var customer = _customerService.Login(customerLoginDto.Cpf, customerLoginDto.Password);
