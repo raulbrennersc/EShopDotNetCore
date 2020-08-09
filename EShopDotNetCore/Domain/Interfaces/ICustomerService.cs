@@ -10,7 +10,7 @@ namespace Domain.Interfaces
     public interface ICustomerService
     {
         Customer GetCustomerByCpf(string cpf);
-        Customer RegisterCustomer(CustomerRegisterDto newCustomerDto);
+        Customer Register(CustomerRegisterDto newCustomerDto);
         Customer Login(string cpf, string password);
     }
 }
