@@ -12,5 +12,6 @@ namespace Domain.Interfaces
         Customer GetCustomerByCpf(string cpf);
         Customer Register(CustomerRegisterDto newCustomerDto);
         Customer Login(string cpf, string password);
+        Customer Update(string cpf, CustomerUpdateDto customerDto);
     }
 }

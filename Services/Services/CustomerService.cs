@@ -3,6 +3,7 @@ using Domain.Entities;
 using Domain.Interfaces;
 using Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Services.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,6 +87,25 @@ namespace Services.Services
                 passwordSalt = hmac.Key;
                 passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
+        }
+
+        public Customer Update(string cpf, CustomerUpdateDto customerDto)
+        {
+            var customer = GetCustomerByCpf(cpf);
+            if(customer == null || string.IsNullOrEmpty(customerDto.Email) || string.IsNullOrEmpty(customerDto.PhoneNumber) ||
+                string.IsNullOrEmpty(customerDto.FirstName) || string.IsNullOrEmpty(customerDto.LastName) ||
+                customerDto.BirthDate == DateTime.MinValue)
+            {
+                throw new InvalidUpdateException(ServicesConstants.ERR_GENERIC_UPDATE);
+            }
+
+            customer.Email = customerDto.Email;
+            customer.PhoneNumber = customerDto.PhoneNumber;
+            customer.FirstName = customerDto.FirstName;
+            customer.LastName = customerDto.LastName;
+            customer.BirthDate = customerDto.BirthDate;
+            _repository.Update(customer);
+            return customer;
         }
     }
 }

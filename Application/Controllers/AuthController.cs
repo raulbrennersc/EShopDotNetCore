@@ -36,12 +36,12 @@ namespace Application.Controllers
             {
                 _customerService.Register(newCustomerDto);
                 _uow.Commit();
-                return StatusCode((int)HttpStatusCode.Created);
+                return HttpResponseHelper.Create(HttpStatusCode.Created, AppConstants.MSG_REGISTER_SUCCESS);
             }
-            catch (Exception ex)
+            catch
             {
                 _uow.Rollback();
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+                return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
             }
         }
 
@@ -55,7 +55,7 @@ namespace Application.Controllers
                 return HttpResponseHelper.Create(HttpStatusCode.Unauthorized, AppConstants.ERR_CPF_PASSWORD_INCORRECT);
             }
 
-            var token = TokenHelper.GenerateCostumerToken(customer, config.GetSection("AppSettings:Token").Value);
+            var token = TokenHelper.GenerateCustumerToken(customer, config.GetSection("AppSettings:Token").Value);
             return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_LOGIN_SUCCESS, token);
         }
     }

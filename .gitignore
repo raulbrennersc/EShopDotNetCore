@@ -539,3 +539,4 @@ obj/
 # End of https://www.toptal.com/developers/gitignore/api/csharp,dotnetcore,visualstudio,visualstudiocode
 
 *EShop.db*
+*.vscode

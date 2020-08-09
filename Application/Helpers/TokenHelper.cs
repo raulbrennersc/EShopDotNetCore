@@ -12,13 +12,13 @@ namespace Application.Helpers
 {
     public class TokenHelper
     {
-        public static string GenerateCostumerToken(Customer costumer, string tokenKey)
+        public static string GenerateCustumerToken(Customer custumer, string tokenKey)
         {
             var claims = new[]
             {
-                new Claim("CustomerCpf", costumer.Cpf),
-                new Claim("CostumerFirstName", costumer.FirstName),
-                new Claim("CostumerLastName", costumer.LastName),
+                new Claim("CustomerCpf", custumer.Cpf),
+                new Claim("CustumerFirstName", custumer.FirstName),
+                new Claim("CustumerLastName", custumer.LastName),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenKey));
