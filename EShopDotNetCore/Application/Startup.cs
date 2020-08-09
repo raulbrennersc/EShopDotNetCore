@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Domain.Entities;
 using Domain.Interfaces;
 using Infra.Data.Context;
+using Infra.Data.Repository;
 using Infra.Data.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,8 +33,40 @@ namespace Application
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EShopContext>(x => x.UseLazyLoadingProxies().UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            //Services
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IService<CartItem>, BaseService<CartItem>>();
+            services.AddScoped<IService<Category>, BaseService<Category>>();
+            services.AddScoped<IService<CategoryProduct>, BaseService<CategoryProduct>>();
+            services.AddScoped<IService<Coupon>, BaseService<Coupon>>();
+            services.AddScoped<IService<CreditCard>, BaseService<CreditCard>>();
+            services.AddScoped<IService<Favorite>, BaseService<Favorite>>();
+            services.AddScoped<IService<Order>, BaseService<Order>>();
+            services.AddScoped<IService<OrderCoupon>, BaseService<OrderCoupon>>();
+            services.AddScoped<IService<OrderProduct>, BaseService<OrderProduct>>();
+            services.AddScoped<IService<Product>, BaseService<Product>>();
+            services.AddScoped<IService<ProductDetail>, BaseService<ProductDetail>>();
+            services.AddScoped<IService<Review>, BaseService<Review>>();
+            services.AddScoped<IService<Customer>, BaseService<Customer>>();
+
+            //Repositories
+            services.AddScoped<IRepository<Address>, BaseRepository<Address>>();
+            services.AddScoped<IRepository<CartItem>, BaseRepository<CartItem>>();
+            services.AddScoped<IRepository<Category>, BaseRepository<Category>>();
+            services.AddScoped<IRepository<CategoryProduct>, BaseRepository<CategoryProduct>>();
+            services.AddScoped<IRepository<Coupon>, BaseRepository<Coupon>>();
+            services.AddScoped<IRepository<CreditCard>, BaseRepository<CreditCard>>();
+            services.AddScoped<IRepository<Favorite>, BaseRepository<Favorite>>();
+            services.AddScoped<IRepository<Order>, BaseRepository<Order>>();
+            services.AddScoped<IRepository<OrderCoupon>, BaseRepository<OrderCoupon>>();
+            services.AddScoped<IRepository<OrderProduct>, BaseRepository<OrderProduct>>();
+            services.AddScoped<IRepository<Product>, BaseRepository<Product>>();
+            services.AddScoped<IRepository<ProductDetail>, BaseRepository<ProductDetail>>();
+            services.AddScoped<IRepository<Review>, BaseRepository<Review>>();
+            services.AddScoped<IRepository<Customer>, BaseRepository<Customer>>();
+
             services.AddControllers();
         }
 
