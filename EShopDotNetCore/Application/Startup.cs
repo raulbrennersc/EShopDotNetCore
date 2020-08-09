@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Domain.Entities;
 using Domain.Interfaces;
 using Infra.Data.Context;
+using Infra.Data.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +32,8 @@ namespace Application
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EShopContext>(x => x.UseLazyLoadingProxies().UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
         }
 
