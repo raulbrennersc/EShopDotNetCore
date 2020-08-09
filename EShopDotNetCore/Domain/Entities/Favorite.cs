@@ -6,7 +6,7 @@ namespace Domain.Entities
 {
     public class Favorite : BaseEntity
     {
-        public virtual Customer User { get; set; }
+        public virtual Customer Customer { get; set; }
         public virtual Product Product { get; set; }
     }
 }

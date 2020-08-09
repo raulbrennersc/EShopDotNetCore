@@ -10,6 +10,6 @@ namespace Domain.Entities
         public virtual string OwnerName { get; set; }
         public virtual int ExpirationMonth { get; set; }
         public virtual int ExpirationYear { get; set; }
-        public virtual Customer User { get; set; }
+        public virtual Customer Customer { get; set; }
     }
 }

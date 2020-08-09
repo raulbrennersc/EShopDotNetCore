@@ -6,7 +6,7 @@ namespace Domain.Entities
 {
     public class Order : BaseEntity
     {
-        public virtual Customer User { get; set; }
+        public virtual Customer Customer { get; set; }
         public virtual string Number { get; set; }
         public virtual decimal FinalPrice { get; set; }
         public virtual ICollection<OrderProduct> Products { get; set; }
