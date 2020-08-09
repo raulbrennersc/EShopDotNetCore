@@ -20,7 +20,7 @@ namespace Domain.Dtos
             FirstName = customer.FirstName;
             LastName = customer.LastName;
             Email = customer.Email;
-            //PhoneNumber = customer.PhoneNumber;
+            PhoneNumber = customer.PhoneNumber;
             BirthDate = customer.BirthDate;
         }
     }
