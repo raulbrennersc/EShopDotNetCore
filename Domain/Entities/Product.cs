@@ -12,5 +12,6 @@ namespace Domain.Entities
         public virtual string Description { get; set; }
         public virtual ICollection<Review> Reviews { get; set; }
         public virtual ICollection<ProductDetail> Details { get; set; }
+        public virtual ICollection<CategoryProduct> Categories { get; set; }
     }
 }
