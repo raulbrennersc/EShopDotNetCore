@@ -540,3 +540,4 @@ obj/
 
 *EShop.db*
 *.vscode
+Infra.Data/Migrations/*
