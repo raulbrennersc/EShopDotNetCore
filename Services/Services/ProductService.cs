@@ -50,7 +50,8 @@ namespace Services
 
         public ProductDetailedDto GetProductById(int id)
         {
-            throw new System.NotImplementedException();
+            var product = _repository.Get(id);
+            return product == null ? null : new ProductDetailedDto(product);
         }
     }
 }
