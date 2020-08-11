@@ -6,6 +6,6 @@ namespace Domain.Interfaces
     public interface IProductService
     {
         ProductDetailedDto GetProductById(int id);
-        List<ProductToListDto> GetFilteredProducts(ProductFilterDto filter);
+        IEnumerable<ProductToListDto> GetFilteredProducts(ProductFilterDto filter);
     }
 }
