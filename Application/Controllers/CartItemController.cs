@@ -14,11 +14,13 @@ namespace Application.Controllers
         private readonly ICartItemService _cartItemService;
         private readonly ICustomerService _custumerService;
         private readonly IProductService _productService;
-        public CartItemController(ICartItemService cartItemService, ICustomerService customerService, IProductService productService)
+        private readonly IUnitOfWork _uow;
+        public CartItemController(ICartItemService cartItemService, ICustomerService customerService, IProductService productService, IUnitOfWork unitOfWork)
         {
             _cartItemService = cartItemService;
             _custumerService = customerService;
             _productService = productService;
+            _uow = unitOfWork;
         }
 
         [HttpGet]
@@ -32,20 +34,38 @@ namespace Application.Controllers
         [HttpPost("{productId}")]
         public ActionResult AddCartItem(int productId)
         {
-            var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
-            var customer = _custumerService.GetCustomerByCpf(customerCpf);
-            var product = _productService.GetProductById(productId);
-            _cartItemService.AddCartItem(product, customer);
-            return HttpResponseHelper.Create(HttpStatusCode.Created, AppConstants.MSG_GENERIC_GET_SUCCESS);
+            try
+            {
+                var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
+                var customer = _custumerService.GetCustomerByCpf(customerCpf);
+                var product = _productService.GetProductById(productId);
+                _cartItemService.AddCartItem(product, customer);
+                _uow.Commit();
+                return HttpResponseHelper.Create(HttpStatusCode.Created, AppConstants.MSG_GENERIC_GET_SUCCESS);
+            }
+            catch
+            {
+                _uow.Rollback();
+                return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
+            }
         }
 
         [HttpDelete("{productId}")]
         public ActionResult RemoveCartItem(int productId)
         {
-            var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
-            var customerId = _custumerService.GetCustomerByCpf(customerCpf).Id;
-            _cartItemService.RemoveCartItem(productId, customerId);
-            return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS);
+            try
+            {
+                var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
+                var customerId = _custumerService.GetCustomerByCpf(customerCpf).Id;
+                _cartItemService.RemoveCartItem(productId, customerId);
+                _uow.Commit();
+                return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS);
+            }
+            catch
+            {
+                _uow.Rollback();
+                return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
+            }
         }
     }
 }
