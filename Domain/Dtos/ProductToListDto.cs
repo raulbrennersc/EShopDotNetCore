@@ -15,7 +15,15 @@ namespace Domain.Dtos
             Price = product.Price;
             Name = product.Name;
             Description = product.Description;
-            Rating = product.Reviews.Sum(r => r.Rating) / product.Reviews.Count();
+            var ratings = product.Reviews.Select(r => r.Rating);
+            if (ratings.Count() > 0)
+            {
+                Rating = ratings.Sum() / ratings.Count();
+            }
+            else
+            {
+                Rating = 0;
+            }
         }
     }
 }
