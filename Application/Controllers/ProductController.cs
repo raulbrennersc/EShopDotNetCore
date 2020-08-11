@@ -23,8 +23,7 @@ namespace Application.Controllers
             return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS, products);
         }
 
-        [HttpGet]
-        [Route("{idProduct}")]
+        [HttpGet("{idProduct}")]
         public ActionResult GetDetailedProduct(int productId)
         {
             var product = _productService.GetProductById(productId);

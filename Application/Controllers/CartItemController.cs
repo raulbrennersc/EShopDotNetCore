@@ -8,6 +8,7 @@ namespace Application.Controllers
 {
     [ApiController]
     [Authorize]
+    [Route("v1/CartItem")]
     public class CartItemController : ControllerBase
     {
         private readonly ICartItemService _cartItemService;
@@ -26,8 +27,7 @@ namespace Application.Controllers
             return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS, cartItems);
         }
 
-        [HttpPost]
-        [Route("{productId}")]
+        [HttpPost("{productId}")]
         public ActionResult AddCartItem(int productId)
         {
             var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
@@ -36,8 +36,7 @@ namespace Application.Controllers
             return HttpResponseHelper.Create(HttpStatusCode.Created, AppConstants.MSG_GENERIC_GET_SUCCESS);
         }
 
-        [HttpDelete]
-        [Route("{productId}")]
+        [HttpDelete("{productId}")]
         public ActionResult RemoveCartItem(int productId)
         {
             var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
