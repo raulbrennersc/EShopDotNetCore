@@ -5,7 +5,7 @@ namespace Domain.Interfaces
 {
     public interface ICartItemService
     {
-        IEnumerable<CartItemDto> GetCartItemsByCustomer(int customerId);
+        IEnumerable<CartItemDto> GetCartItemsByCustomer(string customerCpf);
         void AddCartItem(int productId, int customerId);
         void RemoveCartItem(int productId, int customerId);
     }

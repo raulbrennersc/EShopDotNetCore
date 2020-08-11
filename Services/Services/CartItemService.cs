@@ -35,9 +35,10 @@ namespace Services
             }
         }
 
-        public IEnumerable<CartItemDto> GetCartItemsByCustomer(int customerId)
+        public IEnumerable<CartItemDto> GetCartItemsByCustomer(string customerCpf)
         {
-            return _repository.GetAll().Where(c => c.Customer.Id == customerId).Select(c => new CartItemDto(c));
+            customerCpf = customerCpf.Replace(".", "").Replace("-", "");
+            return _repository.GetAll().Where(c => c.Customer.Cpf == customerCpf).Select(c => new CartItemDto(c));
         }
 
         public void RemoveCartItem(int productId, int customerId)
