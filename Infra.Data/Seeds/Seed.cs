@@ -11,9 +11,9 @@ namespace Infra.Data.Seeds
     {
         public static void SeedProducts(EShopContext context)
         {
-            if (!context.Products.Any())
+            if (!context.Customers.Any())
             {
-                var productData = System.IO.File.ReadAllText("../Infra.Data/ProductSeed.json");
+                var productData = System.IO.File.ReadAllText("../Infra.Data/Seeds/ProductSeed.json");
                 var products = JsonSerializer.Deserialize<List<Product>>(productData);
                 foreach (var product in products)
                 {

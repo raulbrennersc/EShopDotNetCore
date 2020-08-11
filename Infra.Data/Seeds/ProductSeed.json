@@ -1,602 +1,602 @@
 [
     {
-        "price": "165.78",
-        "name": "PRODUCT*18",
-        "stock": 18,
-        "description": "voluptate nostrud sunt consequat consectetur nulla Lorem est officia ea culpa cillum occaecat non aliquip"
+        "Price": 165.78,
+        "Name": "PRODUCT*18",
+        "Stock": 18,
+        "Description": "voluptate nostrud sunt consequat consectetur nulla Lorem est officia ea culpa cillum occaecat non aliquip"
     },
     {
-        "price": "302.62",
-        "name": "PRODUCT*71",
-        "stock": 71,
-        "description": "aliquip pariatur in laboris cillum cillum aliqua laboris ullamco excepteur fugiat labore enim do fugiat"
+        "Price": 302.62,
+        "Name": "PRODUCT*71",
+        "Stock": 71,
+        "Description": "aliquip pariatur in laboris cillum cillum aliqua laboris ullamco excepteur fugiat labore enim do fugiat"
     },
     {
-        "price": "258.62",
-        "name": "PRODUCT*86",
-        "stock": 86,
-        "description": "non eu sint commodo ullamco labore nostrud fugiat ut laborum dolore occaecat non sunt enim"
+        "Price": 258.62,
+        "Name": "PRODUCT*86",
+        "Stock": 86,
+        "Description": "non eu sint commodo ullamco labore nostrud fugiat ut laborum dolore occaecat non sunt enim"
     },
     {
-        "price": 158,
-        "name": "PRODUCT*15",
-        "stock": 15,
-        "description": "nostrud quis do ut velit incididunt nostrud culpa qui quis laborum labore occaecat non nostrud"
+        "Price": 158,
+        "Name": "PRODUCT*15",
+        "Stock": 15,
+        "Description": "nostrud quis do ut velit incididunt nostrud culpa qui quis laborum labore occaecat non nostrud"
     },
     {
-        "price": "170.07",
-        "name": "PRODUCT*42",
-        "stock": 42,
-        "description": "Lorem reprehenderit veniam do aliqua amet esse eiusmod laboris esse sit enim incididunt cillum sunt"
+        "Price": 170.07,
+        "Name": "PRODUCT*42",
+        "Stock": 42,
+        "Description": "Lorem reprehenderit veniam do aliqua amet esse eiusmod laboris esse sit enim incididunt cillum sunt"
     },
     {
-        "price": "431.46",
-        "name": "PRODUCT*20",
-        "stock": 20,
-        "description": "eu sint nostrud enim labore nostrud labore ex irure pariatur ullamco velit velit duis irure"
+        "Price": 431.46,
+        "Name": "PRODUCT*20",
+        "Stock": 20,
+        "Description": "eu sint nostrud enim labore nostrud labore ex irure pariatur ullamco velit velit duis irure"
     },
     {
-        "price": "412.21",
-        "name": "PRODUCT*37",
-        "stock": 37,
-        "description": "sunt pariatur velit occaecat est non consequat qui qui proident est officia culpa consectetur laborum"
+        "Price": 412.21,
+        "Name": "PRODUCT*37",
+        "Stock": 37,
+        "Description": "sunt pariatur velit occaecat est non consequat qui qui proident est officia culpa consectetur laborum"
     },
     {
-        "price": "276.78",
-        "name": "PRODUCT*58",
-        "stock": 58,
-        "description": "labore pariatur irure sint id nisi quis aliquip aute non est et esse quis dolore"
+        "Price": 276.78,
+        "Name": "PRODUCT*58",
+        "Stock": 58,
+        "Description": "labore pariatur irure sint id nisi quis aliquip aute non est et esse quis dolore"
     },
     {
-        "price": "231.98",
-        "name": "PRODUCT*83",
-        "stock": 83,
-        "description": "cupidatat ea commodo dolor Lorem dolor adipisicing ipsum do ex minim deserunt anim minim eu"
+        "Price": 231.98,
+        "Name": "PRODUCT*83",
+        "Stock": 83,
+        "Description": "cupidatat ea commodo dolor Lorem dolor adipisicing ipsum do ex minim deserunt anim minim eu"
     },
     {
-        "price": "347.59",
-        "name": "PRODUC* 8",
-        "stock": 8,
-        "description": "ad cupidatat nisi voluptate minim enim cupidatat adipisicing tempor exercitation deserunt cillum consequat officia in"
+        "Price": 347.59,
+        "Name": "PRODUC* 8",
+        "Stock": 8,
+        "Description": "ad cupidatat nisi voluptate minim enim cupidatat adipisicing tempor exercitation deserunt cillum consequat officia in"
     },
     {
-        "price": "356.86",
-        "name": "PRODUCT*40",
-        "stock": 40,
-        "description": "in elit anim tempor officia dolore nostrud nulla nostrud quis culpa velit Lorem occaecat sunt"
+        "Price": 356.86,
+        "Name": "PRODUCT*40",
+        "Stock": 40,
+        "Description": "in elit anim tempor officia dolore nostrud nulla nostrud quis culpa velit Lorem occaecat sunt"
     },
     {
-        "price": 68,
-        "name": "PRODUCT*86",
-        "stock": 86,
-        "description": "qui pariatur enim eiusmod nulla excepteur Lorem eu aute pariatur ad eu commodo exercitation do"
+        "Price": 68,
+        "Name": "PRODUCT*86",
+        "Stock": 86,
+        "Description": "qui pariatur enim eiusmod nulla excepteur Lorem eu aute pariatur ad eu commodo exercitation do"
     },
     {
-        "price": "42.92",
-        "name": "PRODUCT*32",
-        "stock": 32,
-        "description": "est non anim magna ullamco eiusmod incididunt proident nisi ullamco minim eiusmod in Lorem laboris"
+        "Price": 42.92,
+        "Name": "PRODUCT*32",
+        "Stock": 32,
+        "Description": "est non anim magna ullamco eiusmod incididunt proident nisi ullamco minim eiusmod in Lorem laboris"
     },
     {
-        "price": "398.97",
-        "name": "PRODUCT*25",
-        "stock": 25,
-        "description": "reprehenderit non et officia deserunt et id Lorem reprehenderit nostrud magna sint adipisicing ea labore"
+        "Price": 398.97,
+        "Name": "PRODUCT*25",
+        "Stock": 25,
+        "Description": "reprehenderit non et officia deserunt et id Lorem reprehenderit nostrud magna sint adipisicing ea labore"
     },
     {
-        "price": "388.32",
-        "name": "PRODUCT*60",
-        "stock": 60,
-        "description": "proident voluptate ex culpa excepteur commodo esse deserunt occaecat do culpa ex in in aute"
+        "Price": 388.32,
+        "Name": "PRODUCT*60",
+        "Stock": 60,
+        "Description": "proident voluptate ex culpa excepteur commodo esse deserunt occaecat do culpa ex in in aute"
     },
     {
-        "price": "162.09",
-        "name": "PRODUCT*49",
-        "stock": 49,
-        "description": "reprehenderit excepteur laboris sint veniam exercitation aute nisi excepteur magna fugiat ullamco eiusmod proident sunt"
+        "Price": 162.09,
+        "Name": "PRODUCT*49",
+        "Stock": 49,
+        "Description": "reprehenderit excepteur laboris sint veniam exercitation aute nisi excepteur magna fugiat ullamco eiusmod proident sunt"
     },
     {
-        "price": "370.33",
-        "name": "PRODUCT*65",
-        "stock": 65,
-        "description": "esse excepteur dolore officia cupidatat amet amet laborum sit elit labore nisi et sunt reprehenderit"
+        "Price": 370.33,
+        "Name": "PRODUCT*65",
+        "Stock": 65,
+        "Description": "esse excepteur dolore officia cupidatat amet amet laborum sit elit labore nisi et sunt reprehenderit"
     },
     {
-        "price": "66.38",
-        "name": "PRODUCT*65",
-        "stock": 65,
-        "description": "officia ut commodo esse dolor est Lorem veniam velit laboris adipisicing cupidatat ex ad exercitation"
+        "Price": 66.38,
+        "Name": "PRODUCT*65",
+        "Stock": 65,
+        "Description": "officia ut commodo esse dolor est Lorem veniam velit laboris adipisicing cupidatat ex ad exercitation"
     },
     {
-        "price": "328.96",
-        "name": "PRODUCT*81",
-        "stock": 81,
-        "description": "reprehenderit aute aute deserunt proident consequat Lorem ipsum id consequat excepteur nisi do ullamco exercitation"
+        "Price": 328.96,
+        "Name": "PRODUCT*81",
+        "Stock": 81,
+        "Description": "reprehenderit aute aute deserunt proident consequat Lorem ipsum id consequat excepteur nisi do ullamco exercitation"
     },
     {
-        "price": "266.51",
-        "name": "PRODUCT*41",
-        "stock": 41,
-        "description": "quis pariatur do in aliqua ut aliquip ipsum aliqua irure officia eiusmod reprehenderit mollit ex"
+        "Price": 266.51,
+        "Name": "PRODUCT*41",
+        "Stock": 41,
+        "Description": "quis pariatur do in aliqua ut aliquip ipsum aliqua irure officia eiusmod reprehenderit mollit ex"
     },
     {
-        "price": "10.01",
-        "name": "PRODUCT*45",
-        "stock": 45,
-        "description": "do ut dolor veniam incididunt enim ut id voluptate amet excepteur qui aute ex adipisicing"
+        "Price": 10.01,
+        "Name": "PRODUCT*45",
+        "Stock": 45,
+        "Description": "do ut dolor veniam incididunt enim ut id voluptate amet excepteur qui aute ex adipisicing"
     },
     {
-        "price": "117.97",
-        "name": "PRODUCT*99",
-        "stock": 99,
-        "description": "est amet voluptate ad cillum est nostrud adipisicing commodo ad cillum nisi ullamco enim reprehenderit"
+        "Price": 117.97,
+        "Name": "PRODUCT*99",
+        "Stock": 99,
+        "Description": "est amet voluptate ad cillum est nostrud adipisicing commodo ad cillum nisi ullamco enim reprehenderit"
     },
     {
-        "price": "376.04",
-        "name": "PRODUC* 1",
-        "stock": 1,
-        "description": "do dolor elit nostrud sint tempor commodo nostrud minim eu anim voluptate eu cupidatat sint"
+        "Price": 376.04,
+        "Name": "PRODUC* 1",
+        "Stock": 1,
+        "Description": "do dolor elit nostrud sint tempor commodo nostrud minim eu anim voluptate eu cupidatat sint"
     },
     {
-        "price": "346.72",
-        "name": "PRODUCT*24",
-        "stock": 24,
-        "description": "eiusmod magna minim quis qui nisi proident Lorem pariatur cillum ipsum labore consequat id enim"
+        "Price": 346.72,
+        "Name": "PRODUCT*24",
+        "Stock": 24,
+        "Description": "eiusmod magna minim quis qui nisi proident Lorem pariatur cillum ipsum labore consequat id enim"
     },
     {
-        "price": "243.5",
-        "name": "PRODUCT*50",
-        "stock": 50,
-        "description": "non aliquip laborum minim tempor Lorem reprehenderit excepteur aliqua laborum cupidatat enim sunt anim amet"
+        "Price": 243.5,
+        "Name": "PRODUCT*50",
+        "Stock": 50,
+        "Description": "non aliquip laborum minim tempor Lorem reprehenderit excepteur aliqua laborum cupidatat enim sunt anim amet"
     },
     {
-        "price": "193.78",
-        "name": "PRODUC* 7",
-        "stock": 7,
-        "description": "aute sit non nisi anim anim irure ex sint velit tempor do eiusmod officia labore"
+        "Price": 193.78,
+        "Name": "PRODUC* 7",
+        "Stock": 7,
+        "Description": "aute sit non nisi anim anim irure ex sint velit tempor do eiusmod officia labore"
     },
     {
-        "price": "425.91",
-        "name": "PRODUCT*22",
-        "stock": 22,
-        "description": "elit velit deserunt dolor cupidatat veniam esse irure qui dolor irure mollit laboris anim irure"
+        "Price": 425.91,
+        "Name": "PRODUCT*22",
+        "Stock": 22,
+        "Description": "elit velit deserunt dolor cupidatat veniam esse irure qui dolor irure mollit laboris anim irure"
     },
     {
-        "price": "94.98",
-        "name": "PRODUCT*25",
-        "stock": 25,
-        "description": "nisi excepteur eu ad aliqua fugiat duis irure fugiat cupidatat consequat in sit non anim"
+        "Price": 94.98,
+        "Name": "PRODUCT*25",
+        "Stock": 25,
+        "Description": "nisi excepteur eu ad aliqua fugiat duis irure fugiat cupidatat consequat in sit non anim"
     },
     {
-        "price": "270.16",
-        "name": "PRODUCT*89",
-        "stock": 89,
-        "description": "pariatur duis nostrud in dolor consequat amet dolor officia exercitation dolor esse id enim cupidatat"
+        "Price": 270.16,
+        "Name": "PRODUCT*89",
+        "Stock": 89,
+        "Description": "pariatur duis nostrud in dolor consequat amet dolor officia exercitation dolor esse id enim cupidatat"
     },
     {
-        "price": "341.17",
-        "name": "PRODUCT*94",
-        "stock": 94,
-        "description": "Lorem ad laboris pariatur anim ut aliqua nulla esse consectetur incididunt aliqua proident fugiat qui"
+        "Price": 341.17,
+        "Name": "PRODUCT*94",
+        "Stock": 94,
+        "Description": "Lorem ad laboris pariatur anim ut aliqua nulla esse consectetur incididunt aliqua proident fugiat qui"
     },
     {
-        "price": "277.74",
-        "name": "PRODUCT*19",
-        "stock": 19,
-        "description": "qui eiusmod ad laborum fugiat ut ut velit id excepteur do fugiat proident officia adipisicing"
+        "Price": 277.74,
+        "Name": "PRODUCT*19",
+        "Stock": 19,
+        "Description": "qui eiusmod ad laborum fugiat ut ut velit id excepteur do fugiat proident officia adipisicing"
     },
     {
-        "price": "308.68",
-        "name": "PRODUCT*99",
-        "stock": 99,
-        "description": "non sunt nostrud Lorem enim mollit consequat in nostrud qui excepteur adipisicing pariatur officia dolore"
+        "Price": 308.68,
+        "Name": "PRODUCT*99",
+        "Stock": 99,
+        "Description": "non sunt nostrud Lorem enim mollit consequat in nostrud qui excepteur adipisicing pariatur officia dolore"
     },
     {
-        "price": "341.59",
-        "name": "PRODUCT*81",
-        "stock": 81,
-        "description": "et minim ad pariatur exercitation labore quis id minim aute aute nisi laborum officia commodo"
+        "Price": 341.59,
+        "Name": "PRODUCT*81",
+        "Stock": 81,
+        "Description": "et minim ad pariatur exercitation labore quis id minim aute aute nisi laborum officia commodo"
     },
     {
-        "price": "134.34",
-        "name": "PRODUC* 7",
-        "stock": 7,
-        "description": "eiusmod aliqua ut tempor dolore aute dolor est laboris do in et cupidatat magna ipsum"
+        "Price": 134.34,
+        "Name": "PRODUC* 7",
+        "Stock": 7,
+        "Description": "eiusmod aliqua ut tempor dolore aute dolor est laboris do in et cupidatat magna ipsum"
     },
     {
-        "price": "465.99",
-        "name": "PRODUCT*99",
-        "stock": 99,
-        "description": "non ullamco id sint aliquip veniam velit commodo est qui et dolore ipsum cillum tempor"
+        "Price": 465.99,
+        "Name": "PRODUCT*99",
+        "Stock": 99,
+        "Description": "non ullamco id sint aliquip veniam velit commodo est qui et dolore ipsum cillum tempor"
     },
     {
-        "price": "336.44",
-        "name": "PRODUCT*22",
-        "stock": 22,
-        "description": "eiusmod consequat eiusmod magna velit et ex ad in irure non labore consectetur non in"
+        "Price": 336.44,
+        "Name": "PRODUCT*22",
+        "Stock": 22,
+        "Description": "eiusmod consequat eiusmod magna velit et ex ad in irure non labore consectetur non in"
     },
     {
-        "price": "350.12",
-        "name": "PRODUCT*23",
-        "stock": 23,
-        "description": "cillum do enim reprehenderit enim ut sint officia irure non incididunt aliquip excepteur aute nulla"
+        "Price": 350.12,
+        "Name": "PRODUCT*23",
+        "Stock": 23,
+        "Description": "cillum do enim reprehenderit enim ut sint officia irure non incididunt aliquip excepteur aute nulla"
     },
     {
-        "price": "309.63",
-        "name": "PRODUCT*10",
-        "stock": 10,
-        "description": "commodo ex cillum officia labore tempor est officia nulla laboris laboris proident ipsum labore dolor"
+        "Price": 309.63,
+        "Name": "PRODUCT*10",
+        "Stock": 10,
+        "Description": "commodo ex cillum officia labore tempor est officia nulla laboris laboris proident ipsum labore dolor"
     },
     {
-        "price": "346.89",
-        "name": "PRODUCT*22",
-        "stock": 22,
-        "description": "minim fugiat sit consequat exercitation pariatur deserunt dolore do nulla nisi adipisicing amet commodo officia"
+        "Price": 346.89,
+        "Name": "PRODUCT*22",
+        "Stock": 22,
+        "Description": "minim fugiat sit consequat exercitation pariatur deserunt dolore do nulla nisi adipisicing amet commodo officia"
     },
     {
-        "price": "198.9",
-        "name": "PRODUC* 3",
-        "stock": 3,
-        "description": "eu laborum quis eiusmod duis non consequat ullamco laborum ex cillum cupidatat excepteur veniam et"
+        "Price": 198.9,
+        "Name": "PRODUC* 3",
+        "Stock": 3,
+        "Description": "eu laborum quis eiusmod duis non consequat ullamco laborum ex cillum cupidatat excepteur veniam et"
     },
     {
-        "price": "79.16",
-        "name": "PRODUCT*63",
-        "stock": 63,
-        "description": "incididunt nulla ullamco irure anim cupidatat proident nulla laboris ipsum excepteur officia qui laborum in"
+        "Price": 79.16,
+        "Name": "PRODUCT*63",
+        "Stock": 63,
+        "Description": "incididunt nulla ullamco irure anim cupidatat proident nulla laboris ipsum excepteur officia qui laborum in"
     },
     {
-        "price": "254.52",
-        "name": "PRODUCT*95",
-        "stock": 95,
-        "description": "occaecat proident quis minim commodo laborum pariatur consequat velit officia duis veniam deserunt magna anim"
+        "Price": 254.52,
+        "Name": "PRODUCT*95",
+        "Stock": 95,
+        "Description": "occaecat proident quis minim commodo laborum pariatur consequat velit officia duis veniam deserunt magna anim"
     },
     {
-        "price": "83.49",
-        "name": "PRODUCT*45",
-        "stock": 45,
-        "description": "velit irure cillum deserunt nisi in excepteur id veniam elit cupidatat do minim ea magna"
+        "Price": 83.49,
+        "Name": "PRODUCT*45",
+        "Stock": 45,
+        "Description": "velit irure cillum deserunt nisi in excepteur id veniam elit cupidatat do minim ea magna"
     },
     {
-        "price": "272.34",
-        "name": "PRODUCT*47",
-        "stock": 47,
-        "description": "laborum reprehenderit Lorem sint cillum cupidatat mollit ut quis velit voluptate tempor in id Lorem"
+        "Price": 272.34,
+        "Name": "PRODUCT*47",
+        "Stock": 47,
+        "Description": "laborum reprehenderit Lorem sint cillum cupidatat mollit ut quis velit voluptate tempor in id Lorem"
     },
     {
-        "price": "259.57",
-        "name": "PRODUCT*41",
-        "stock": 41,
-        "description": "officia Lorem duis aute voluptate commodo aliqua tempor adipisicing laboris occaecat cupidatat officia sit quis"
+        "Price": 259.57,
+        "Name": "PRODUCT*41",
+        "Stock": 41,
+        "Description": "officia Lorem duis aute voluptate commodo aliqua tempor adipisicing laboris occaecat cupidatat officia sit quis"
     },
     {
-        "price": "115.36",
-        "name": "PRODUCT*50",
-        "stock": 50,
-        "description": "aute ea anim Lorem mollit qui enim ullamco consequat laboris aliquip ipsum deserunt esse fugiat"
+        "Price": 115.36,
+        "Name": "PRODUCT*50",
+        "Stock": 50,
+        "Description": "aute ea anim Lorem mollit qui enim ullamco consequat laboris aliquip ipsum deserunt esse fugiat"
     },
     {
-        "price": "389.13",
-        "name": "PRODUCT*83",
-        "stock": 83,
-        "description": "est minim dolor quis proident officia aute exercitation eu deserunt minim do culpa eu sunt"
+        "Price": 389.13,
+        "Name": "PRODUCT*83",
+        "Stock": 83,
+        "Description": "est minim dolor quis proident officia aute exercitation eu deserunt minim do culpa eu sunt"
     },
     {
-        "price": "306.4",
-        "name": "PRODUC* 1",
-        "stock": 1,
-        "description": "et ullamco laborum aute minim minim voluptate laborum laborum ad laboris aute nisi duis ullamco"
+        "Price": 306.4,
+        "Name": "PRODUC* 1",
+        "Stock": 1,
+        "Description": "et ullamco laborum aute minim minim voluptate laborum laborum ad laboris aute nisi duis ullamco"
     },
     {
-        "price": "276.43",
-        "name": "PRODUCT*98",
-        "stock": 98,
-        "description": "ea velit mollit est labore irure aliquip laborum sit ad deserunt dolore Lorem Lorem ullamco"
+        "Price": 276.43,
+        "Name": "PRODUCT*98",
+        "Stock": 98,
+        "Description": "ea velit mollit est labore irure aliquip laborum sit ad deserunt dolore Lorem Lorem ullamco"
     },
     {
-        "price": "427.02",
-        "name": "PRODUCT*55",
-        "stock": 55,
-        "description": "ullamco id enim laborum anim tempor ex eiusmod eiusmod commodo sit veniam do reprehenderit ex"
+        "Price": 427.02,
+        "Name": "PRODUCT*55",
+        "Stock": 55,
+        "Description": "ullamco id enim laborum anim tempor ex eiusmod eiusmod commodo sit veniam do reprehenderit ex"
     },
     {
-        "price": "336.87",
-        "name": "PRODUCT*82",
-        "stock": 82,
-        "description": "proident qui nostrud ex cillum exercitation eiusmod reprehenderit eiusmod officia Lorem fugiat velit ea amet"
+        "Price": 336.87,
+        "Name": "PRODUCT*82",
+        "Stock": 82,
+        "Description": "proident qui nostrud ex cillum exercitation eiusmod reprehenderit eiusmod officia Lorem fugiat velit ea amet"
     },
     {
-        "price": "17.09",
-        "name": "PRODUCT*46",
-        "stock": 46,
-        "description": "deserunt voluptate ad excepteur aute minim elit minim labore et ad eu occaecat exercitation non"
+        "Price": 17.09,
+        "Name": "PRODUCT*46",
+        "Stock": 46,
+        "Description": "deserunt voluptate ad excepteur aute minim elit minim labore et ad eu occaecat exercitation non"
     },
     {
-        "price": "103.28",
-        "name": "PRODUC* 8",
-        "stock": 8,
-        "description": "exercitation magna reprehenderit nisi Lorem consectetur magna amet enim tempor tempor dolor elit fugiat aliqua"
+        "Price": 103.28,
+        "Name": "PRODUC* 8",
+        "Stock": 8,
+        "Description": "exercitation magna reprehenderit nisi Lorem consectetur magna amet enim tempor tempor dolor elit fugiat aliqua"
     },
     {
-        "price": "304.69",
-        "name": "PRODUCT*15",
-        "stock": 15,
-        "description": "aute nostrud ad ea ipsum deserunt nostrud fugiat proident amet minim incididunt elit aute ut"
+        "Price": 304.69,
+        "Name": "PRODUCT*15",
+        "Stock": 15,
+        "Description": "aute nostrud ad ea ipsum deserunt nostrud fugiat proident amet minim incididunt elit aute ut"
     },
     {
-        "price": "77.6",
-        "name": "PRODUCT*26",
-        "stock": 26,
-        "description": "ullamco ex officia magna occaecat laborum ad laborum eu velit tempor magna mollit incididunt deserunt"
+        "Price": 77.6,
+        "Name": "PRODUCT*26",
+        "Stock": 26,
+        "Description": "ullamco ex officia magna occaecat laborum ad laborum eu velit tempor magna mollit incididunt deserunt"
     },
     {
-        "price": "33.81",
-        "name": "PRODUCT*36",
-        "stock": 36,
-        "description": "dolore laborum magna laborum officia sunt occaecat amet deserunt et commodo deserunt ullamco reprehenderit amet"
+        "Price": 33.81,
+        "Name": "PRODUCT*36",
+        "Stock": 36,
+        "Description": "dolore laborum magna laborum officia sunt occaecat amet deserunt et commodo deserunt ullamco reprehenderit amet"
     },
     {
-        "price": "350.96",
-        "name": "PRODUCT*97",
-        "stock": 97,
-        "description": "enim fugiat eiusmod et Lorem commodo incididunt Lorem dolore magna incididunt aliqua ad dolor irure"
+        "Price": 350.96,
+        "Name": "PRODUCT*97",
+        "Stock": 97,
+        "Description": "enim fugiat eiusmod et Lorem commodo incididunt Lorem dolore magna incididunt aliqua ad dolor irure"
     },
     {
-        "price": "264.73",
-        "name": "PRODUCT*64",
-        "stock": 64,
-        "description": "nulla exercitation pariatur duis enim sunt quis nisi non consectetur sunt qui id magna Lorem"
+        "Price": 264.73,
+        "Name": "PRODUCT*64",
+        "Stock": 64,
+        "Description": "nulla exercitation pariatur duis enim sunt quis nisi non consectetur sunt qui id magna Lorem"
     },
     {
-        "price": "147.22",
-        "name": "PRODUCT*95",
-        "stock": 95,
-        "description": "nulla voluptate aute sint ad ea irure ipsum veniam do laborum est incididunt pariatur incididunt"
+        "Price": 147.22,
+        "Name": "PRODUCT*95",
+        "Stock": 95,
+        "Description": "nulla voluptate aute sint ad ea irure ipsum veniam do laborum est incididunt pariatur incididunt"
     },
     {
-        "price": "370.8",
-        "name": "PRODUC* 7",
-        "stock": 7,
-        "description": "pariatur ea velit do anim dolore aliqua excepteur mollit adipisicing commodo Lorem enim anim magna"
+        "Price": 370.8,
+        "Name": "PRODUC* 7",
+        "Stock": 7,
+        "Description": "pariatur ea velit do anim dolore aliqua excepteur mollit adipisicing commodo Lorem enim anim magna"
     },
     {
-        "price": "348.31",
-        "name": "PRODUCT*20",
-        "stock": 20,
-        "description": "sunt elit sint in voluptate ipsum exercitation aliqua adipisicing sunt voluptate elit do occaecat sint"
+        "Price": 348.31,
+        "Name": "PRODUCT*20",
+        "Stock": 20,
+        "Description": "sunt elit sint in voluptate ipsum exercitation aliqua adipisicing sunt voluptate elit do occaecat sint"
     },
     {
-        "price": "133.82",
-        "name": "PRODUCT*66",
-        "stock": 66,
-        "description": "veniam anim eu amet in esse dolore cillum velit deserunt eu non do esse cupidatat"
+        "Price": 133.82,
+        "Name": "PRODUCT*66",
+        "Stock": 66,
+        "Description": "veniam anim eu amet in esse dolore cillum velit deserunt eu non do esse cupidatat"
     },
     {
-        "price": "456.01",
-        "name": "PRODUCT*44",
-        "stock": 44,
-        "description": "reprehenderit adipisicing laboris id sunt ullamco occaecat consectetur tempor enim incididunt nisi pariatur veniam culpa"
+        "Price": 456.01,
+        "Name": "PRODUCT*44",
+        "Stock": 44,
+        "Description": "reprehenderit adipisicing laboris id sunt ullamco occaecat consectetur tempor enim incididunt nisi pariatur veniam culpa"
     },
     {
-        "price": "482.39",
-        "name": "PRODUCT*18",
-        "stock": 18,
-        "description": "consequat sit exercitation cupidatat reprehenderit sint elit dolore officia cupidatat cupidatat irure consequat eu exercitation"
+        "Price": 482.39,
+        "Name": "PRODUCT*18",
+        "Stock": 18,
+        "Description": "consequat sit exercitation cupidatat reprehenderit sint elit dolore officia cupidatat cupidatat irure consequat eu exercitation"
     },
     {
-        "price": "181.45",
-        "name": "PRODUCT*39",
-        "stock": 39,
-        "description": "ex voluptate dolor reprehenderit eiusmod reprehenderit aliqua ex occaecat aute non amet dolore ea ullamco"
+        "Price": 181.45,
+        "Name": "PRODUCT*39",
+        "Stock": 39,
+        "Description": "ex voluptate dolor reprehenderit eiusmod reprehenderit aliqua ex occaecat aute non amet dolore ea ullamco"
     },
     {
-        "price": "380.81",
-        "name": "PRODUCT*79",
-        "stock": 79,
-        "description": "velit proident ullamco ipsum minim aute sunt sint nostrud et excepteur incididunt ipsum amet elit"
+        "Price": 380.81,
+        "Name": "PRODUCT*79",
+        "Stock": 79,
+        "Description": "velit proident ullamco ipsum minim aute sunt sint nostrud et excepteur incididunt ipsum amet elit"
     },
     {
-        "price": "137.62",
-        "name": "PRODUCT*66",
-        "stock": 66,
-        "description": "id do non non velit cillum reprehenderit ullamco Lorem officia voluptate enim sunt elit id"
+        "Price": 137.62,
+        "Name": "PRODUCT*66",
+        "Stock": 66,
+        "Description": "id do non non velit cillum reprehenderit ullamco Lorem officia voluptate enim sunt elit id"
     },
     {
-        "price": "301.78",
-        "name": "PRODUCT*42",
-        "stock": 42,
-        "description": "dolor labore in deserunt cillum cupidatat enim ea eiusmod eiusmod id cillum anim sint voluptate"
+        "Price": 301.78,
+        "Name": "PRODUCT*42",
+        "Stock": 42,
+        "Description": "dolor labore in deserunt cillum cupidatat enim ea eiusmod eiusmod id cillum anim sint voluptate"
     },
     {
-        "price": "453.33",
-        "name": "PRODUCT*39",
-        "stock": 39,
-        "description": "ea eu cillum mollit ex nisi do exercitation nostrud consectetur quis non occaecat id do"
+        "Price": 453.33,
+        "Name": "PRODUCT*39",
+        "Stock": 39,
+        "Description": "ea eu cillum mollit ex nisi do exercitation nostrud consectetur quis non occaecat id do"
     },
     {
-        "price": "140.43",
-        "name": "PRODUCT*11",
-        "stock": 11,
-        "description": "commodo enim sit reprehenderit officia cillum sit occaecat aliquip aliquip eu laborum voluptate exercitation aliqua"
+        "Price": 140.43,
+        "Name": "PRODUCT*11",
+        "Stock": 11,
+        "Description": "commodo enim sit reprehenderit officia cillum sit occaecat aliquip aliquip eu laborum voluptate exercitation aliqua"
     },
     {
-        "price": "191.36",
-        "name": "PRODUCT*38",
-        "stock": 38,
-        "description": "consequat officia non adipisicing laboris amet exercitation tempor culpa cillum voluptate amet ut deserunt non"
+        "Price": 191.36,
+        "Name": "PRODUCT*38",
+        "Stock": 38,
+        "Description": "consequat officia non adipisicing laboris amet exercitation tempor culpa cillum voluptate amet ut deserunt non"
     },
     {
-        "price": "58.79",
-        "name": "PRODUCT*42",
-        "stock": 42,
-        "description": "Lorem eiusmod cillum laboris ipsum officia et ut id adipisicing laboris non occaecat ex cillum"
+        "Price": 58.79,
+        "Name": "PRODUCT*42",
+        "Stock": 42,
+        "Description": "Lorem eiusmod cillum laboris ipsum officia et ut id adipisicing laboris non occaecat ex cillum"
     },
     {
-        "price": "385.41",
-        "name": "PRODUCT*25",
-        "stock": 25,
-        "description": "ipsum eu amet aliqua nulla laboris nostrud voluptate sit tempor laboris dolor dolor incididunt aliqua"
+        "Price": 385.41,
+        "Name": "PRODUCT*25",
+        "Stock": 25,
+        "Description": "ipsum eu amet aliqua nulla laboris nostrud voluptate sit tempor laboris dolor dolor incididunt aliqua"
     },
     {
-        "price": "337.23",
-        "name": "PRODUCT*69",
-        "stock": 69,
-        "description": "aute nostrud proident nisi aliqua pariatur non nisi consequat sunt quis minim velit eiusmod velit"
+        "Price": 337.23,
+        "Name": "PRODUCT*69",
+        "Stock": 69,
+        "Description": "aute nostrud proident nisi aliqua pariatur non nisi consequat sunt quis minim velit eiusmod velit"
     },
     {
-        "price": "341.58",
-        "name": "PRODUCT*62",
-        "stock": 62,
-        "description": "aliqua eiusmod laborum ex quis labore officia labore esse officia labore elit do id et"
+        "Price": 341.58,
+        "Name": "PRODUCT*62",
+        "Stock": 62,
+        "Description": "aliqua eiusmod laborum ex quis labore officia labore esse officia labore elit do id et"
     },
     {
-        "price": "132.71",
-        "name": "PRODUCT*77",
-        "stock": 77,
-        "description": "irure exercitation aliqua consectetur commodo est amet in eu labore deserunt elit est reprehenderit in"
+        "Price": 132.71,
+        "Name": "PRODUCT*77",
+        "Stock": 77,
+        "Description": "irure exercitation aliqua consectetur commodo est amet in eu labore deserunt elit est reprehenderit in"
     },
     {
-        "price": "325.19",
-        "name": "PRODUCT*58",
-        "stock": 58,
-        "description": "duis sit Lorem ut nisi duis aute reprehenderit do tempor occaecat sit aliqua sit aute"
+        "Price": 325.19,
+        "Name": "PRODUCT*58",
+        "Stock": 58,
+        "Description": "duis sit Lorem ut nisi duis aute reprehenderit do tempor occaecat sit aliqua sit aute"
     },
     {
-        "price": "321.04",
-        "name": "PRODUCT*14",
-        "stock": 14,
-        "description": "ea ipsum sint minim qui cupidatat occaecat exercitation qui et dolor magna in officia cupidatat"
+        "Price": 321.04,
+        "Name": "PRODUCT*14",
+        "Stock": 14,
+        "Description": "ea ipsum sint minim qui cupidatat occaecat exercitation qui et dolor magna in officia cupidatat"
     },
     {
-        "price": "167.03",
-        "name": "PRODUCT*29",
-        "stock": 29,
-        "description": "adipisicing sunt ullamco officia anim magna Lorem eu elit laboris magna eiusmod id magna enim"
+        "Price": 167.03,
+        "Name": "PRODUCT*29",
+        "Stock": 29,
+        "Description": "adipisicing sunt ullamco officia anim magna Lorem eu elit laboris magna eiusmod id magna enim"
     },
     {
-        "price": "16.35",
-        "name": "PRODUCT*35",
-        "stock": 35,
-        "description": "duis aute incididunt fugiat laboris nostrud sunt minim commodo nostrud consequat ipsum officia irure minim"
+        "Price": 16.35,
+        "Name": "PRODUCT*35",
+        "Stock": 35,
+        "Description": "duis aute incididunt fugiat laboris nostrud sunt minim commodo nostrud consequat ipsum officia irure minim"
     },
     {
-        "price": "354.56",
-        "name": "PRODUCT*38",
-        "stock": 38,
-        "description": "aute ipsum esse incididunt non ex in amet veniam ad ea sint nostrud aliquip ut"
+        "Price": 354.56,
+        "Name": "PRODUCT*38",
+        "Stock": 38,
+        "Description": "aute ipsum esse incididunt non ex in amet veniam ad ea sint nostrud aliquip ut"
     },
     {
-        "price": "485.94",
-        "name": "PRODUCT*16",
-        "stock": 16,
-        "description": "enim laboris ad mollit minim esse eu id mollit voluptate voluptate ad officia voluptate magna"
+        "Price": 485.94,
+        "Name": "PRODUCT*16",
+        "Stock": 16,
+        "Description": "enim laboris ad mollit minim esse eu id mollit voluptate voluptate ad officia voluptate magna"
     },
     {
-        "price": "316.58",
-        "name": "PRODUCT*76",
-        "stock": 76,
-        "description": "commodo labore incididunt eu commodo occaecat dolor velit non voluptate do consectetur dolor amet consequat"
+        "Price": 316.58,
+        "Name": "PRODUCT*76",
+        "Stock": 76,
+        "Description": "commodo labore incididunt eu commodo occaecat dolor velit non voluptate do consectetur dolor amet consequat"
     },
     {
-        "price": "477.18",
-        "name": "PRODUCT*38",
-        "stock": 38,
-        "description": "et magna tempor adipisicing cillum fugiat labore eu enim sit ad laboris duis consectetur excepteur"
+        "Price": 477.18,
+        "Name": "PRODUCT*38",
+        "Stock": 38,
+        "Description": "et magna tempor adipisicing cillum fugiat labore eu enim sit ad laboris duis consectetur excepteur"
     },
     {
-        "price": "386.06",
-        "name": "PRODUCT*15",
-        "stock": 15,
-        "description": "sit cupidatat qui laboris pariatur nostrud do aliquip nisi incididunt consectetur nisi cillum cupidatat reprehenderit"
+        "Price": 386.06,
+        "Name": "PRODUCT*15",
+        "Stock": 15,
+        "Description": "sit cupidatat qui laboris pariatur nostrud do aliquip nisi incididunt consectetur nisi cillum cupidatat reprehenderit"
     },
     {
-        "price": "370.1",
-        "name": "PRODUCT*89",
-        "stock": 89,
-        "description": "anim esse culpa voluptate amet anim excepteur incididunt labore irure excepteur veniam eu consequat commodo"
+        "Price": 370.1,
+        "Name": "PRODUCT*89",
+        "Stock": 89,
+        "Description": "anim esse culpa voluptate amet anim excepteur incididunt labore irure excepteur veniam eu consequat commodo"
     },
     {
-        "price": "246.73",
-        "name": "PRODUCT*60",
-        "stock": 60,
-        "description": "elit irure ut duis anim consectetur ex sunt anim minim adipisicing minim nulla nulla veniam"
+        "Price": 246.73,
+        "Name": "PRODUCT*60",
+        "Stock": 60,
+        "Description": "elit irure ut duis anim consectetur ex sunt anim minim adipisicing minim nulla nulla veniam"
     },
     {
-        "price": "196.88",
-        "name": "PRODUCT*43",
-        "stock": 43,
-        "description": "id sit irure sint ad ipsum elit exercitation fugiat cupidatat quis voluptate enim exercitation laboris"
+        "Price": 196.88,
+        "Name": "PRODUCT*43",
+        "Stock": 43,
+        "Description": "id sit irure sint ad ipsum elit exercitation fugiat cupidatat quis voluptate enim exercitation laboris"
     },
     {
-        "price": "282.8",
-        "name": "PRODUCT*11",
-        "stock": 11,
-        "description": "mollit minim tempor aute cupidatat laborum veniam dolore minim dolor mollit dolore reprehenderit adipisicing laboris"
+        "Price": 282.8,
+        "Name": "PRODUCT*11",
+        "Stock": 11,
+        "Description": "mollit minim tempor aute cupidatat laborum veniam dolore minim dolor mollit dolore reprehenderit adipisicing laboris"
     },
     {
-        "price": "331.74",
-        "name": "PRODUCT*64",
-        "stock": 64,
-        "description": "est minim Lorem anim ea duis id eu ut exercitation adipisicing voluptate sint enim qui"
+        "Price": 331.74,
+        "Name": "PRODUCT*64",
+        "Stock": 64,
+        "Description": "est minim Lorem anim ea duis id eu ut exercitation adipisicing voluptate sint enim qui"
     },
     {
-        "price": "272.79",
-        "name": "PRODUC* 1",
-        "stock": 1,
-        "description": "labore Lorem pariatur veniam quis sunt est elit anim tempor esse culpa et qui ullamco"
+        "Price": 272.79,
+        "Name": "PRODUC* 1",
+        "Stock": 1,
+        "Description": "labore Lorem pariatur veniam quis sunt est elit anim tempor esse culpa et qui ullamco"
     },
     {
-        "price": 159,
-        "name": "PRODUCT*32",
-        "stock": 32,
-        "description": "excepteur aute incididunt sunt nisi Lorem sunt ipsum cillum non mollit aliqua Lorem sit exercitation"
+        "Price": 159,
+        "Name": "PRODUCT*32",
+        "Stock": 32,
+        "Description": "excepteur aute incididunt sunt nisi Lorem sunt ipsum cillum non mollit aliqua Lorem sit exercitation"
     },
     {
-        "price": "36.79",
-        "name": "PRODUCT*24",
-        "stock": 24,
-        "description": "nulla aute labore veniam laboris id consectetur dolor aliquip nisi Lorem ullamco ullamco aliqua aliqua"
+        "Price": 36.79,
+        "Name": "PRODUCT*24",
+        "Stock": 24,
+        "Description": "nulla aute labore veniam laboris id consectetur dolor aliquip nisi Lorem ullamco ullamco aliqua aliqua"
     },
     {
-        "price": "415.42",
-        "name": "PRODUCT*33",
-        "stock": 33,
-        "description": "cillum exercitation mollit Lorem adipisicing ut eiusmod consectetur reprehenderit adipisicing esse ex eiusmod est laboris"
+        "Price": 415.42,
+        "Name": "PRODUCT*33",
+        "Stock": 33,
+        "Description": "cillum exercitation mollit Lorem adipisicing ut eiusmod consectetur reprehenderit adipisicing esse ex eiusmod est laboris"
     },
     {
-        "price": "68.78",
-        "name": "PRODUCT*31",
-        "stock": 31,
-        "description": "qui eu do enim esse velit quis id incididunt ipsum dolor amet voluptate officia commodo"
+        "Price": 68.78,
+        "Name": "PRODUCT*31",
+        "Stock": 31,
+        "Description": "qui eu do enim esse velit quis id incididunt ipsum dolor amet voluptate officia commodo"
     },
     {
-        "price": "115.63",
-        "name": "PRODUCT*96",
-        "stock": 96,
-        "description": "tempor non consectetur elit consectetur mollit et pariatur tempor exercitation est anim culpa Lorem dolor"
+        "Price": 115.63,
+        "Name": "PRODUCT*96",
+        "Stock": 96,
+        "Description": "tempor non consectetur elit consectetur mollit et pariatur tempor exercitation est anim culpa Lorem dolor"
     },
     {
-        "price": "127.82",
-        "name": "PRODUCT*53",
-        "stock": 53,
-        "description": "exercitation quis incididunt occaecat labore reprehenderit est dolor officia enim eu officia veniam laboris deserunt"
+        "Price": 127.82,
+        "Name": "PRODUCT*53",
+        "Stock": 53,
+        "Description": "exercitation quis incididunt occaecat labore reprehenderit est dolor officia enim eu officia veniam laboris deserunt"
     },
     {
-        "price": "113.13",
-        "name": "PRODUCT*29",
-        "stock": 29,
-        "description": "sint in non exercitation adipisicing do dolore pariatur culpa fugiat labore mollit nostrud commodo nostrud"
+        "Price": 113.13,
+        "Name": "PRODUCT*29",
+        "Stock": 29,
+        "Description": "sint in non exercitation adipisicing do dolore pariatur culpa fugiat labore mollit nostrud commodo nostrud"
     },
     {
-        "price": "100.59",
-        "name": "PRODUCT*14",
-        "stock": 14,
-        "description": "deserunt excepteur proident incididunt aute exercitation esse ullamco quis esse nulla magna proident labore mollit"
+        "Price": 100.59,
+        "Name": "PRODUCT*14",
+        "Stock": 14,
+        "Description": "deserunt excepteur proident incididunt aute exercitation esse ullamco quis esse nulla magna proident labore mollit"
     },
     {
-        "price": "232.88",
-        "name": "PRODUCT*24",
-        "stock": 24,
-        "description": "culpa Lorem eiusmod voluptate elit labore aute fugiat aute velit irure sint duis occaecat sunt"
+        "Price": 232.88,
+        "Name": "PRODUCT*24",
+        "Stock": 24,
+        "Description": "culpa Lorem eiusmod voluptate elit labore aute fugiat aute velit irure sint duis occaecat sunt"
     }
 ]
