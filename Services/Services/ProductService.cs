@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Domain.Dtos;
@@ -42,10 +43,16 @@ namespace Services.Services
                 products = products.Where(p => p.Categories.Any(c => filter.Categories.Contains(c.Category.Id)));
             }
 
+            if (!string.IsNullOrEmpty(filter.Name))
+            {
+                products = products.Where(p => p.Name.Contains(filter.Name));
+            }
+
             if (filter.Page > 0)
             {
                 products = products.Skip((filter.Page - 1) * ServicesConstants.PRODUCT_ITEMS_PAGE).Take(ServicesConstants.PRODUCT_ITEMS_PAGE);
             }
+
 
             return products.Select(p => new ProductToListDto(p)).ToList();
         }
