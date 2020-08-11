@@ -53,5 +53,23 @@ namespace Application.Controllers
                 return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
             }
         }
+
+        [HttpGet("favorites")]
+        public ActionResult GetFavorites()
+        {
+            var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
+            var customer = _customerService.GetCustomerByCpf(customerCpf);
+            var favorites = customer.Favorites.Select(f => new ProductToListDto(f.Product));
+            return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS, favorites);
+        }
+
+        [HttpGet("orders")]
+        public ActionResult GetOrders()
+        {
+            var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
+            var customer = _customerService.GetCustomerByCpf(customerCpf);
+            var orders = customer.Orders.Select(order => new OrderToListDto(order));
+            return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS, orders);
+        }
     }
 }

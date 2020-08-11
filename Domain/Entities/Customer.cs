@@ -18,5 +18,6 @@ namespace Domain.Entities
         public virtual ICollection<Address> Addresses { get; set; }
         public virtual ICollection<CartItem> Cart { get; set; }
         public virtual ICollection<Favorite> Favorites { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }
