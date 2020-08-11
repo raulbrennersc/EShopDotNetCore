@@ -53,6 +53,7 @@ namespace Application
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<ICartItemService, CartItemService>();
             services.AddScoped<IProductService, ProductService>();
+
             services.AddScoped<IService<Category>, BaseService<Category>>();
             services.AddScoped<IService<CategoryProduct>, BaseService<CategoryProduct>>();
             services.AddScoped<IService<Coupon>, BaseService<Coupon>>();
