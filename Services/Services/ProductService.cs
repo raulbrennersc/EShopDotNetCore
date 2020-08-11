@@ -57,10 +57,15 @@ namespace Services.Services
             return products.Select(p => new ProductToListDto(p)).ToList();
         }
 
-        public ProductDetailedDto GetProductById(int id)
+        public ProductDetailedDto GetProductDetailedById(int id)
         {
             var product = _repository.Get(id);
             return product == null ? null : new ProductDetailedDto(product);
+        }
+
+        public Product GetProductById(int productId)
+        {
+            return _repository.Get(productId);
         }
     }
 }

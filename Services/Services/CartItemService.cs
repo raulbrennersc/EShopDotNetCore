@@ -15,9 +15,9 @@ namespace Services.Services
             _repository = repository;
         }
 
-        public void AddCartItem(int productId, int customerId)
+        public void AddCartItem(Product product, Customer customer)
         {
-            var cartItem = _repository.GetAll().FirstOrDefault(c => c.Customer.Id == customerId && c.Product.Id == productId);
+            var cartItem = _repository.GetAll().FirstOrDefault(c => c.Customer.Id == customer.Id && c.Product.Id == product.Id);
             if (cartItem != null)
             {
                 cartItem.Quantity++;
@@ -27,8 +27,8 @@ namespace Services.Services
             {
                 cartItem = new CartItem
                 {
-                    Customer = new Customer { Id = customerId },
-                    Product = new Product { Id = productId },
+                    Customer = customer,
+                    Product = product,
                     Quantity = 1,
                 };
                 _repository.Save(cartItem);

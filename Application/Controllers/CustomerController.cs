@@ -30,8 +30,8 @@ namespace Application.Controllers
         public ActionResult GetLoggedCustomer()
         {
             var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
-            var customer = _customerService.GetCustomerByCpf(customerCpf);
-            return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS, new CustomerDetailDto(customer));
+            var customer = _customerService.GetDetailedCustomerByCpf(customerCpf);
+            return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_GET_SUCCESS, customer);
         }
 
         [HttpPut]
@@ -44,7 +44,7 @@ namespace Application.Controllers
                 _uow.Commit();
                 return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_UPDATE_SUCCESS, new CustomerDetailDto(customer));
             }
-            catch(InvalidUpdateException ex)
+            catch (InvalidUpdateException ex)
             {
                 return HttpResponseHelper.Create(HttpStatusCode.BadRequest, ex.Message);
             }

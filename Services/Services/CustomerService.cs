@@ -25,6 +25,13 @@ namespace Services.Services
             return _repository.GetAll().FirstOrDefault(c => c.Cpf == cpf);
         }
 
+        public CustomerDetailDto GetDetailedCustomerByCpf(string cpf)
+        {
+            cpf = cpf.Replace(".", "").Replace("-", "");
+            var customer = _repository.GetAll().FirstOrDefault(c => c.Cpf == cpf);
+            return new CustomerDetailDto(customer);
+        }
+
         public Customer Login(string cpf, string password)
         {
             cpf = cpf.Replace(".", "").Replace("-", "");
@@ -92,7 +99,7 @@ namespace Services.Services
         public Customer Update(string cpf, CustomerUpdateDto customerDto)
         {
             var customer = GetCustomerByCpf(cpf);
-            if(customer == null || string.IsNullOrEmpty(customerDto.Email) || string.IsNullOrEmpty(customerDto.PhoneNumber) ||
+            if (customer == null || string.IsNullOrEmpty(customerDto.Email) || string.IsNullOrEmpty(customerDto.PhoneNumber) ||
                 string.IsNullOrEmpty(customerDto.FirstName) || string.IsNullOrEmpty(customerDto.LastName) ||
                 customerDto.BirthDate == DateTime.MinValue)
             {
