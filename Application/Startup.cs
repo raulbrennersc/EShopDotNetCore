@@ -51,7 +51,8 @@ namespace Application
 
             //Services
             services.AddScoped<ICustomerService, CustomerService>();
-            services.AddScoped<IService<CartItem>, BaseService<CartItem>>();
+            services.AddScoped<ICartItemService, CartItemService>();
+            services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IService<Category>, BaseService<Category>>();
             services.AddScoped<IService<CategoryProduct>, BaseService<CategoryProduct>>();
             services.AddScoped<IService<Coupon>, BaseService<Coupon>>();
@@ -60,7 +61,6 @@ namespace Application
             services.AddScoped<IService<Order>, BaseService<Order>>();
             services.AddScoped<IService<OrderCoupon>, BaseService<OrderCoupon>>();
             services.AddScoped<IService<OrderProduct>, BaseService<OrderProduct>>();
-            services.AddScoped<IService<Product>, BaseService<Product>>();
             services.AddScoped<IService<ProductDetail>, BaseService<ProductDetail>>();
             services.AddScoped<IService<Review>, BaseService<Review>>();
             services.AddScoped<IService<Customer>, BaseService<Customer>>();

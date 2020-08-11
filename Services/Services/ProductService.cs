@@ -4,7 +4,7 @@ using Domain.Dtos;
 using Domain.Entities;
 using Domain.Interfaces;
 
-namespace Services
+namespace Services.Services
 {
     public class ProductService : IProductService
     {
