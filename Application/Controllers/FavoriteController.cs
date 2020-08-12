@@ -46,6 +46,7 @@ namespace Application.Controllers
             }
             catch
             {
+                _uow.Rollback();
                 return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
             }
         }
@@ -62,6 +63,7 @@ namespace Application.Controllers
             }
             catch
             {
+                _uow.Rollback();
                 return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
             }
         }

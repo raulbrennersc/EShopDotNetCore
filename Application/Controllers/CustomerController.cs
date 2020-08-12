@@ -46,10 +46,12 @@ namespace Application.Controllers
             }
             catch (InvalidUpdateException ex)
             {
+                _uow.Rollback();
                 return HttpResponseHelper.Create(HttpStatusCode.BadRequest, ex.Message);
             }
             catch
             {
+                _uow.Rollback();
                 return HttpResponseHelper.Create(HttpStatusCode.InternalServerError, AppConstants.ERR_GENERIC);
             }
         }
