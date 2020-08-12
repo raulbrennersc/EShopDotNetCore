@@ -6,10 +6,10 @@ namespace Domain.Interfaces
 {
     public interface ICreditCardService
     {
-        void Save(CreditCardDto creditCardDto);
+        void Save(CreditCardDto creditCardDto, Customer customer);
         void Delete(int creditCardId, string customerCpf);
         void Update(CreditCardDto creditCardDto, string customerCpf);
         IEnumerable<CreditCardDto> GetCardsByCustomerCpf(string customerCpf);
-        CreditCard GetCardById(int cardId);
+        CreditCard GetCardById(int cardId, string customerCpf);
     }
 }
