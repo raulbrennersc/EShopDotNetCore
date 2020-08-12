@@ -13,6 +13,6 @@ namespace Domain.Interfaces
         CustomerDetailDto GetDetailedCustomerByCpf(string cpf);
         Customer Register(CustomerRegisterDto newCustomerDto);
         Customer Login(string cpf, string password);
-        Customer Update(string cpf, CustomerUpdateDto customerDto);
+        void Update(string cpf, CustomerUpdateDto customerDto);
     }
 }

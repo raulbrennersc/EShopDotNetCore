@@ -40,9 +40,9 @@ namespace Application.Controllers
             try
             {
                 var customerCpf = HttpContext.User.FindFirst("CustomerCpf").Value;
-                var customer = _customerService.Update(customerCpf, customerDto);
+                _customerService.Update(customerCpf, customerDto);
                 _uow.Commit();
-                return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_UPDATE_SUCCESS, new CustomerDetailDto(customer));
+                return HttpResponseHelper.Create(HttpStatusCode.OK, AppConstants.MSG_GENERIC_UPDATE_SUCCESS);
             }
             catch (InvalidUpdateException ex)
             {

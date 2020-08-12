@@ -94,7 +94,7 @@ namespace Services.Services
             }
         }
 
-        public Customer Update(string cpf, CustomerUpdateDto customerDto)
+        public void Update(string cpf, CustomerUpdateDto customerDto)
         {
             var customer = GetCustomerByCpf(cpf);
             if (customer == null || string.IsNullOrEmpty(customerDto.Email) || string.IsNullOrEmpty(customerDto.PhoneNumber) ||
@@ -110,7 +110,6 @@ namespace Services.Services
             customer.LastName = customerDto.LastName;
             customer.BirthDate = customerDto.BirthDate;
             _repository.Update(customer);
-            return customer;
         }
     }
 }
