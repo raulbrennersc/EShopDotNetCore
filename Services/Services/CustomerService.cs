@@ -21,13 +21,11 @@ namespace Services.Services
 
         public Customer GetCustomerByCpf(string cpf)
         {
-            cpf = cpf.Replace(".", "").Replace("-", "");
             return _repository.GetAll().FirstOrDefault(c => c.Cpf == cpf);
         }
 
         public CustomerDetailDto GetDetailedCustomerByCpf(string cpf)
         {
-            cpf = cpf.Replace(".", "").Replace("-", "");
             var customer = _repository.GetAll().FirstOrDefault(c => c.Cpf == cpf);
             return new CustomerDetailDto(customer);
         }

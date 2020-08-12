@@ -13,9 +13,9 @@ namespace Services.Services
         {
             _favoriteRepository = favoriteRepository;
         }
-        public void DeleteFavorite(int customerId, int productId)
+        public void DeleteFavorite(string customerCpf, int productId)
         {
-            var favorite = _favoriteRepository.GetAll().FirstOrDefault(f => f.Product.Id == productId && f.Customer.Id == customerId);
+            var favorite = _favoriteRepository.GetAll().FirstOrDefault(f => f.Product.Id == productId && f.Customer.Cpf == customerCpf);
             if (favorite != null)
             {
                 _favoriteRepository.Delete(favorite.Id);
@@ -24,7 +24,6 @@ namespace Services.Services
 
         public IQueryable<Favorite> GetFavoritesByCustomer(string customerCpf)
         {
-            customerCpf = customerCpf.Replace(".", "").Replace("-", "");
             return _favoriteRepository.GetAll().Where(f => f.Customer.Cpf == customerCpf);
         }
 
@@ -35,7 +34,7 @@ namespace Services.Services
 
         public void SaveFavorite(Customer customer, Product product)
         {
-            var favorite = _favoriteRepository.GetAll().FirstOrDefault(f => f.Product.Id == productId && f.Customer.Id == customerId);
+            var favorite = _favoriteRepository.GetAll().FirstOrDefault(f => f.Product.Id == product.Id && f.Customer.Id == customer.Id);
             if (favorite == null)
             {
                 favorite = new Favorite

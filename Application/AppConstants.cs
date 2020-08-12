@@ -15,5 +15,6 @@ namespace Application
         public const string MSG_REGISTER_SUCCESS = "Cadastro relizado com sucesso.";
         public const string MSG_GENERIC_GET_SUCCESS = "Dados consultados com sucesso.";
         public const string MSG_GENERIC_UPDATE_SUCCESS = "Dados atualizados com sucesso.";
+        public const string MSG_GENERIC_SUCCESS = "Operação realizada com sucesso.";
     }
 }

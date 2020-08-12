@@ -37,7 +37,6 @@ namespace Services.Services
 
         public IEnumerable<CartItemDto> GetCartItemsByCustomer(string customerCpf)
         {
-            customerCpf = customerCpf.Replace(".", "").Replace("-", "");
             return _repository.GetAll().Where(c => c.Customer.Cpf == customerCpf).Select(c => new CartItemDto(c));
         }
 

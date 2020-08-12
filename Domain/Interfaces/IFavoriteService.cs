@@ -10,6 +10,6 @@ namespace Domain.Interfaces
         IEnumerable<ProductToListDto> GetFavoritesToListByCustomer(string customerCpf);
         IQueryable<Favorite> GetFavoritesByCustomer(string customerCpf);
         void SaveFavorite(Customer customer, Product product);
-        void DeleteFavorite(int customerId, int productId);
+        void DeleteFavorite(string customerCpf, int productId);
     }
 }
